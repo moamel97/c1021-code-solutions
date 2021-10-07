@@ -4,9 +4,8 @@ h2 {
 
 .button {
   box-sizing: border-box;
-  height: 5%;
-  width: 5%;
-  padding: 10px;
+  margin: auto;
+  padding: 6px;
   color: black;
 }
 
@@ -15,27 +14,16 @@ h2 {
   color: white;
 }
 
-tr:nth-child(1) {
+tr:nth-child(odd) {
   background-color: black;
   color: white;
 }
 
-tr:nth-child(2) {
+tr:nth-child(even) {
   background-color: rgb(180, 180, 180);
 }
 
-tr:nth-child(3) {
-  background-color: whitesmoke;
-}
-
-tr:nth-child(4) {
-  background-color: rgb(180, 180, 180);
-}
-
-tr:nth-child(5) {
-  background-color: whitesmoke;
-}
-
-tr:nth-child(6) {
-  background-color: rgb(180, 180, 180);
+.black {
+  background-color: black;
+  color: white;
 }
