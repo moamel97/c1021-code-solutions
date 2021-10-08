@@ -1,12 +1,12 @@
 form {
-  width: 50%;
+  width: 30%;
   margin: auto;
 }
 
 h2 {
   text-align: center;
   font-family: 'Brandon Grotesque', sans-serif;
-  color: orangered;
+  color: #ec5d58;
   letter-spacing: 2px;
 }
 
@@ -39,7 +39,7 @@ select {
 .submit {
   width: 20%;
   border-radius: 25px;
-  background-color: orangered;
+  background-color: #ec5d58;
   color: white;
   font-family: 'Brandon Grotesque', sans-serif;
   text-transform: uppercase;
@@ -48,4 +48,8 @@ select {
 
 .button {
   text-align: right;
+}
+
+.label-position {
+  padding-right: 20px;
 }
