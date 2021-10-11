@@ -10,31 +10,35 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<form action="" id="document">
-    <label for="document"><h2>LEARN MORE</h2></label>
-    <div>
-      <label for="company" class="label-position">company email</label>
+  <div class="form-container">
+  <form action="" id="document">
+    <div class="learn-more">
+      <label for="document"><h2>LEARN MORE</h2></label>
+    </div>
+    <div class="brisk">
+      <label for="company">company email</label>
     </div>
       <input type="email" id="company" placeholder="sally@company.co">
-    <div>
-      <label for="name" class="label-position">name</label>
+    <div class="brisk">
+      <label for="name">name</label>
     </div>
       <input type="text" id="name" placeholder="Sally Smith">
-    <div>
-      <label for="city" class="label-position">where are you hiring?</label>
+    <div class="brisk">
+      <label for="city">where are you hiring?</label>
     </div>
       <input type="text" id="city" placeholder="City, County">
-    <div>
-      <label for="engineers" class="label-position">how many engineers are you hiring in the next 6 months</label>
+    <div class="hiring">
+      <label for="engineers">how many engineers are you hiring in the next 6 months?</label>
     </div>
       <select name="engineers" id="engineers">
-        <option value="1-2">1-2</option>
-        <option value="3-4">3-4</option>
-        <option value="5-6">5-6</option>
+        <option value="1-2">1-2 Engineers</option>
+        <option value="3-4">3-4 Engineers</option>
+        <option value="5-6">5-6 Engineers</option>
       </select>
       <div class="button">
-        <input type="submit" class="submit" >
+        <button>submit</button>
       </div>
   </form>
+</div>
 </body>
 </html>
