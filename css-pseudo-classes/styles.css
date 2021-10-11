@@ -1,0 +1,29 @@
+h2 {
+  font-family: sans-serif;
+}
+
+.button {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 6px;
+  color: black;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(180, 180, 180);
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
