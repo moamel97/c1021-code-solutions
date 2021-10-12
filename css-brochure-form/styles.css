@@ -1,5 +1,5 @@
 .form-container {
-  width: 88%;
+  width: 1100px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -31,8 +31,8 @@ label {
 }
 
 input {
-  width: 70%;
-  height: 40px;
+  width: 100%;
+  height: 50px;
   border-radius: 6px;
   border-width: 0.1px;
   border-color: #cbcdcd;
@@ -41,7 +41,7 @@ input {
 }
 
 select {
-  width: 70%;
+  width: 100%;
   border-radius: 6px;
   border-width: 1px;
   border-color: rgb(177, 177, 177);
@@ -53,7 +53,7 @@ select {
 
 button {
   text-align: center;
-  width: 12%;
+  width: 100px;
   border-radius: 48px;
   background-color: #ec5d57;
   color: white;
@@ -66,10 +66,6 @@ button {
   font-weight: 550;
 }
 
-.move-to-the-right {
-  padding-right: 36%;
-}
-
 #engineers {
   font-family: 'Brandon Grotesque', sans-serif;
   font-size: large;
@@ -77,14 +73,9 @@ button {
 
 .button {
   text-align: right;
-  margin-right: 15%;
 }
 
 .brisk {
   text-align: left;
-  margin-left: 16%;
-}
-
-.hiring {
-  margin-right: 7%;
+  margin-left: 17px;
 }
