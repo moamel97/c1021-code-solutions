@@ -17,8 +17,11 @@ img {
   width: 100%;
 }
 .column-two-third {
-  width: calc(100% / 2);
+  width: calc(200% / 3);
 }
 .column-one-third {
   width: calc(100% / 3);
+}
+.column-full {
+  width: 100%;
 }
