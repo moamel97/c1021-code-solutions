@@ -55,35 +55,27 @@ var orderHistory = [
     ]
   },
   // forth order
-  [
-    {
-      shipTo: 'SHIP TO',
-      nameOfThePerson: 'JS Masher',
-      orderPlaced: 'ORDER PLACED July 3, 2020',
-      totalPriceAfterTax: 138.93,
-      orderNumber: 'ORDER # 113-2883177-2648248',
-      item: [
-        {
-          deliveryDate: 'Delivered Jul 5, 2020',
-          image: './image4',
-          orderName: 'Game Cube Controller',
-          returnWindow: 'Return window colsed Aug 4, 2020',
-          PriceBeforeTax: 94.95,
-          item: [
-            {
-              orderName1: 'The Art of Sql',
-              image1: './image5',
-              authorName: 'Faroult, Stephane',
-              returnWindow1: 'Return window closed on Aug 4, 2020',
-              PriceBeforeTax: 33.99
-            }
-          ]
-        }
-      ]
-    }
-
-  ]
-
+  {
+    shipTo: 'SHIP TO',
+    nameOfThePerson: 'JS Masher',
+    orderPlaced: 'ORDER PLACED July 3, 2020',
+    totalPriceAfterTax: 138.93,
+    orderNumber: 'ORDER # 113-2883177-2648248',
+    item: [
+      {
+        deliveryDate: 'Delivered Jul 5, 2020',
+        image: './image4',
+        orderName: 'Game Cube Controller',
+        returnWindow: 'Return window colsed Aug 4, 2020',
+        PriceBeforeTax: 94.95
+      },
+      {
+        orderName1: 'The Art of Sql',
+        image1: './image5',
+        authorName: 'Faroult, Stephane',
+        returnWindow1: 'Return window closed on Aug 4, 2020',
+        PriceBeforeTax: 33.99
+      }
+    ]
+  }
 ];
-
-console.log('The order of order history:', orderHistory);
