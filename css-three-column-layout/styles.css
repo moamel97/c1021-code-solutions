@@ -24,20 +24,19 @@ h2 {
 }
 
 .image {
+  display: block;
   width: 100px;
   height: 100px;
   background-color: whitesmoke;
   border-radius: 100%;
-  margin-left: 30%;
-}
-
-.row1 {
-  display: flex;
+  margin: auto;
 }
 
 img {
+  display: block;
   width: 46%;
-  margin: 29%;
+  margin: auto;
+  padding-top: 23%;
 }
 
 .text-edit {
