@@ -47,8 +47,8 @@ library.unshift(css);
 library.splice('', 1);
 console.log('The value of library:', library);
 
-var fullName = ['moamel ', 'hashim'];
-var firstAndLast = fullName.splice(' ');
+var fullName = 'Moamel Hashim';
+var firstAndLast = fullName.split(' ');
 console.log(firstAndLast);
 var firstName = firstAndLast[0];
 var sayMyName = firstName.toUpperCase();
