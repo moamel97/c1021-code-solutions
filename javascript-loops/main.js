@@ -10,9 +10,9 @@
 function getNumbersToTen() {
   var numbers = [];
   var currentNumber = 1;
-  while (numbers[currentNumber]) {
-    numbers += currentNumber;
+  while (currentNumber < 11) {
+    numbers.push(currentNumber);
     currentNumber++;
-    return numbers
   }
+  return numbers;
 }
