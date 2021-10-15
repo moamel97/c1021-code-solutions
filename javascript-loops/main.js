@@ -10,7 +10,7 @@
 function getNumbersToTen() {
   var numbers = [];
   var currentNumber = 1;
-  while (currentNumber < 11) {
+  while (currentNumber <= 10) {
     numbers.push(currentNumber);
     currentNumber++;
   }
@@ -31,7 +31,7 @@ function repeatWord(word, times) {
   var count = 1;
   var repeated = '';
   while (count <= times) {
-    repeated = word;
+    repeated += word;
     count++;
   }
   return repeated;
@@ -54,7 +54,7 @@ function doubleAll(numbers) {
 function getKeys(object) {
   var keys = [];
   for (var key in object) {
-    object.push(key);
+    keys.push(key);
   }
   return keys;
 }
@@ -62,7 +62,7 @@ function getKeys(object) {
 function getValues(object) {
   var values = [];
   for (var key in object) {
-    object.push([key]);
+    values.push(object[key]);
   }
   return values;
 }
