@@ -25,23 +25,25 @@ function isEven(number) {
 
 function startsWithJ(string) {
   if (string[0] === 'J') {
-    return string;
+    return true;
+  } else {
+    return false;
   }
 }
 
 function isOldEnoughToDrink(person) {
-  if (person.age >= 21) {
+  if (person < 21) {
     return 'not old enough to drink';
   } else {
-    return 'old enough to drink';
+    return ' old enough to drink';
   }
 }
 
 function isOldEnoughToDrive(person) {
-  if (person.age >= 16) {
-    return 'not old enough to drive';
-  } else {
+  if (person >= 16) {
     return 'old enough to drive';
+  } else {
+    return ' not old enough to drive';
   }
 }
 
@@ -62,8 +64,8 @@ function categorizeAcidity(pH) {
 }
 
 function introduceWarnerBro(name) {
-  if ((name === 'yako') || (name === 'wakko')) {
-    return "We're the warner brothers !";
+  if ((name === 'yakko') || (name === 'wakko')) {
+    return "We're the warner brothers!";
   } else if (name === 'dot') {
     return "I'm cute~";
   } else {
