@@ -1,0 +1,50 @@
+.container {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+h2 {
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+  color: whitesmoke;
+}
+
+.image {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  margin: auto;
+}
+
+img {
+  display: block;
+  width: 46%;
+  margin: auto;
+  padding-top: 23%;
+}
+
+.text-edit {
+  font-family: 'lato', sans-serif;
+  text-align: center;
+  padding: 4%;
+}
+
+.margin-top {
+  margin-top: 6%;
+}
