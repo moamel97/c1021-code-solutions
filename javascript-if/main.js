@@ -32,18 +32,18 @@ function startsWithJ(string) {
 }
 
 function isOldEnoughToDrink(person) {
-  if (person < 21) {
-    return 'not old enough to drink';
+  if (person.age <= 21) {
+    return false;
   } else {
-    return ' old enough to drink';
+    return true;
   }
 }
 
 function isOldEnoughToDrive(person) {
-  if (person >= 16) {
-    return 'old enough to drive';
+  if (person.age <= 16) {
+    return false;
   } else {
-    return ' not old enough to drive';
+    return true;
   }
 }
 
@@ -54,9 +54,9 @@ function isOldEnoughToDrinkAndDrive(person) {
 function categorizeAcidity(pH) {
   if (pH === 7) {
     return 'neutral';
-  } else if (pH <= 0 < 7) {
+  } else if ((pH >= 0) && (pH < 7)) {
     return 'acid';
-  } else if (pH >= 0 > 7) {
+  } else if ((pH >= 7) && (pH <= 14)) {
     return 'base';
   } else {
     return 'invalid pH level';
