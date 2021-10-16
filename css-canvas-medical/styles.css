@@ -1,0 +1,61 @@
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border-bottom-design {
+  border-bottom: whitesmoke;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.nav-position {
+  text-align: end;
+}
+
+.nav-design {
+  color: #a6a6a6;
+  margin-top: 4%;
+}
+
+.image {
+  width: 25%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.column-forty-percent {
+  width: 40%;
+}
+
+.contact-us-design {
+  color: white;
+  background-color: rgb(41, 68, 99);
+  border-radius: 10px;
+  padding: 3%;
+}
+
+.white-smoke-line {
+  border-bottom: whitesmoke;
+  border-style: solid;
+  border-width: 1px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.justify-content {
+  justify-content: space-between;
+}
