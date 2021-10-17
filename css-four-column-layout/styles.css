@@ -1,0 +1,47 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-thirty-percent {
+  width: 30%;
+}
+
+img {
+  width: 100%;
+}
+
+.column-full {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Barlow',sans-serif;
+}
+
+.image {
+  width: 20%;
+}
+
+.image-center {
+  text-align: center;
+}
+
+
+h2 {
+  font-size: large;
+  font-weight: bolder;
+  font-family: 'Barlow', sans-serif;
+}
+
+p {
+  font-size: small;
+  margin-top: 15%;
+  font-family: 'Barlow', sans-serif;
+}
