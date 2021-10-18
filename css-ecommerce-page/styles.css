@@ -4,11 +4,11 @@
 
 body {
   margin: 0 auto;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .container {
-  max-width: 12000px;
+  max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -29,29 +29,8 @@ img {
   align-items: center;
 }
 
-
-h2 {
-  font-size: medium;
-}
-
-.justify-content {
-  justify-content: space-around;
-}
-
-.text {
-  border: aquamarine;
-  border-style: solid;
-  border-bottom: 0;
-  border-left: 0;
-  border-top: 0;
-}
-
 h1 {
   text-align: center;
-}
-
-span {
-  margin-left: 10%;
 }
 
 p {
@@ -60,7 +39,7 @@ p {
 }
 
 .text {
-  width: 33%;
+  width: 100%;
 }
 
 .position-right {
@@ -70,4 +49,17 @@ p {
 
 .column {
   width: 100%;
+}
+
+span {
+  color: rgb(190,190,190);
+}
+
+.different-color {
+  color: black;
+  background-color: #FFF2E7;
+}
+
+.margin-top {
+  margin-top: 4%;
 }
