@@ -1,7 +1,10 @@
 /* exported findIndex */
 
-// function findIndex(array, value) {
-//   var input = [];
-//   for(var i = 0; i < array.length; i++) {
-//     input.push(array.value[i] )
-// }
+function findIndex(array, value) {
+  for(var i = 0; i < array.length; i++) {
+    if (value === array[i]) {
+      return i
+    }
+  }
+  return -1; 
+}
