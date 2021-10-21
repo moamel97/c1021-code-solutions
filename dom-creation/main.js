@@ -60,7 +60,6 @@ var pokedex = [
 function renderPokemon(pokemon) {
   var newDiv = document.createElement('div');
   newDiv.setAttribute('class', 'column-third');
-  $divRow.appendChild(newDiv);
 
   var $pokeMonCard = document.createElement('div');
   $pokeMonCard.setAttribute('class', 'pokemon-card');
@@ -80,16 +79,16 @@ function renderPokemon(pokemon) {
   // h3
   var $h3 = document.createElement('h3');
   $divForText.appendChild($h3);
-  $h3.textContent = pokemon.number;
+  $h3.textContent = '#' + pokemon.number;
   // p
   var $p = document.createElement('p');
   $divForText.appendChild($p);
   $p.textContent = pokemon.description;
+  return newDiv;
 }
 
 var $divRow = document.querySelector('.row');
 for (var i = 0; i < pokedex.length; i++) {
-  renderPokemon(pokedex[i]);
-  var $displayImages = document.createElement('node');
+  var $displayImages = renderPokemon(pokedex[i]);
   $divRow.appendChild($displayImages);
 }
