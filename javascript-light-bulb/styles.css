@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+}
+
+.column {
+  transform: translate(50%, 20rem);
+  width: 90%;
+}
+
+.light-bulb-style {
+  width: 16%;
+  padding: 8%;
+  border-radius: 50%;
+  border-style: none;
+}
+
+.light-bulb-on {
+  background-color: rgb(250, 234, 132);
+}
+
+.background-off {
+  background-color: rgba(0, 0, 0, 0.473);
+}
+
+.background-on {
+  background-color: rgb(254, 249, 241);
+}
+
+.light-bulb-off {
+  filter: drop-shadow(0 -4mm 0 rgb(8, 8, 10));
+  background-color: rgb(37, 37, 37);
+}
