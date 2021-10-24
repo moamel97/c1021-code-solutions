@@ -39,7 +39,7 @@ button:active {
   transform: translateY(0.25rem);
 }
 
-div :first-child > img {
+div:first-child > img {
   transform: rotate(-30deg);
 }
 
