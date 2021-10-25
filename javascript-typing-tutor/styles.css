@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  height: auto;
+}
+
+
+
+.container {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.justify-align {
+  justify-content: center;
+  align-items: center;
+}
+
+.position {
+  position: relative;
+  top: 20%;
+}
+
+h1 {
+  margin-top: 35%;
+  font-weight: 800;
+}
+
+/* span {
+  border-bottom-style: solid;
+} */
+
+.color-green {
+  color: green;
+}
+
+.correct {
+  color: red;
+  text-underline-position: below;
+}
