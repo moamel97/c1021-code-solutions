@@ -3,7 +3,6 @@
 we also should use the capitalize method for the first latter of the word */
 
 function capitalize(word) {
-  var firstIndex = '';
-  var upperCase = firstIndex.toUpperCase();
-  return upperCase;
+  var lowerCase = word.toLowerCase();
+  return word[0].toUpperCase() + lowerCase.slice(1);
 }
