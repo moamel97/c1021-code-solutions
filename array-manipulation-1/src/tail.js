@@ -4,10 +4,8 @@
 function tail(array) {
   var arrayOf = [];
 
-  for(var i = 0; i < array.length; i++) {
-    if (i > 0) {
+  for(var i = 1; i < array.length; i++) {
       arrayOf.push(array[i])
-    }
   }
   return arrayOf;
  }

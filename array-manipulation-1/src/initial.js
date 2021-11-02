@@ -4,10 +4,8 @@ and only return those */
 
 function initial(array) {
   var arrayHolder = [];
-  for(var i = 0; i < array.length; i++) {
-    if (i < array.length -1) {
+  for(var i = 0; i < array.length -1; i++) {
       arrayHolder.push(array[i]);
-    }
   }
   return arrayHolder;
 }

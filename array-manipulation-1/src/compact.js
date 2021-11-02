@@ -3,7 +3,9 @@
 
 function compact(array) {
   var arrayHolder = [];
-  for (var removeFalse of array)
-  removeFalse && arrayHolder.push(removeFalse);
+ for (var i = 0; i < array.length; i++) {
+   if ((array[i] !== false) && (array[i] !== null) && (array[i] !== undefined) && (array[i]) && (array[i] !== 0) && (array[i] !== -0) && (array[i] !== ''))
+     arrayHolder.push(array[i])
+ }
   return arrayHolder;
-}
+};
