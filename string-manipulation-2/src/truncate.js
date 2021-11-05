@@ -12,13 +12,11 @@ step 6 return array
           console.log everything and debug
 */
 
-// function truncate(number, string) {
-//   var array = [];
-//   for (var i = 0; i < string.length; i++) {
-//     // string[i].substring(number);
-//     // array.join(string[i]);
-//     array.push(string[i]);
-//   }
-//   console.log(array);
-//   return array + '....';
-// }
+function truncate(number, string) {
+  var array = [];
+  for (var i = 0; i < string.length; i++) {
+    string.substring(number);
+    array.push(string[i]);
+  }
+  return array.join() + '....';
+}
