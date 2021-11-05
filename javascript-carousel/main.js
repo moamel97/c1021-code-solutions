@@ -81,26 +81,31 @@ function swipeLeft(event) {
 }
 
 function firstDotClick(event) {
+  clearInterval(timerId);
   if (event.target.matches('.fa-circle') === false) {
     return;
   }
-  for (var i = 0; i < $dot.length; i++) {
-    if ($dot[i] === event.target) {
-      $dot[i].className = 'fas fa-circle';
-    } else {
-      $dot[i].className = 'far fa-circle';
-    }
-    // if (count === 0) {
-    //   $img.setAttribute('src', './images/001.png');
-    // } else if (count === 1) {
-    //   $img.setAttribute('src', './images/004.png');
-    // } else if (count === 2) {
-    //   $img.setAttribute('src', './images/025.png');
-    // }
-    clearInterval(timerId);
-    timerId = setInterval(function () {
-      updateDot();
-      imgSwiper();
-    }, 3000);
+  var dotId = event.target.getAttribute('id');
+  if (dotId === '0') {
+    count = -1;
+    dotCount = -1;
+  } else if (dotId === '1') {
+    count = 0;
+    dotCount = 0;
+  } else if (dotId === '2') {
+    count = 1;
+    dotCount = 1;
+  } else if (dotId === '3') {
+    count = 2;
+    dotCount = 2;
+  } else if (dotId === '4') {
+    count = 3;
+    dotCount = 3;
   }
+  updateDot();
+  imgSwiper();
+  timerId = setInterval(function () {
+    updateDot();
+    imgSwiper();
+  }, 3000);
 }
