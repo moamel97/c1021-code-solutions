@@ -7,15 +7,14 @@ step 4 inside the for loop code use the math method to calculate odd numbers and
 step 5 return string.
 */
 
-// function ransomCase(string) {
-//   var str = '';
-//   var lowerCase = string.toLowerCase();
-//   for (var i = 0; i < string.length; i++) {
-//     if (i % 2 === 0) {
-//       str.string[i].toLowerCase();
-//     } else {
-//       str.string[i].toUpperCase();
-//     }
-//   }
-
-// }
+function ransomCase(string) {
+  var str = '';
+  for (var i = 0; i < string.length; i++) {
+    if (i % 2 === 0) {
+      str += string[i].toLowerCase();
+    } else {
+      str += string[i].toUpperCase();
+    }
+  }
+  return str;
+}
