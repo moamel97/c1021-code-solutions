@@ -1,29 +1,8 @@
 /* exported isVowel */
-
-/* create a function that checks if a character is a vowel and if it is then return true and if its is not then return false */
+/* we need to create a function that checks if the characters that are passed through it are vowels or not
+to do so we need to create a conditional that checkas if the character is a vowl or not both in uppercase and lowercase
+*/
 
 function isVowel(char) {
-  if (char === 'a') {
-    return true;
-  } else if (char === 'E') {
-    return true;
-  } else if (char === 'I') {
-    return true;
-  } else if (char === 'o') {
-    return true;
-  } else if (char === 'u') {
-    return true;
-  } else if (char === 'e') {
-    return true;
-  } else if (char === 'i') {
-    return true;
-  } else if (char === 'A') {
-    return true;
-  } else if (char === 'O') {
-    return true;
-  } else if (char === 'U') {
-    return true;
-  } else {
-    return false;
-  }
+  return /[aeiouAEIOU]/.test(char);
 }

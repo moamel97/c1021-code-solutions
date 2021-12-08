@@ -1,12 +1,12 @@
 /* exported getWords */
-/* create a function that creates an array and seprate each word as well as check if the string has a word inside it and if it left empty then return an empty erray
-if not the return the sentance split up */
+/* we create a fucntion that holds a string as a paramter then we need to change that string to an array and store it into a new variable then return that variable.
+the we need to create a conditional that checks if the string is an empty string then return an empty array.
+*/
 
 function getWords(string) {
+  const stringToArray = string.split(' ');
   if (string === '') {
-    var array = [];
-    return array;
+    return [];
   }
- var splits = string.split(' ');
-return splits;
+  return stringToArray;
 }
