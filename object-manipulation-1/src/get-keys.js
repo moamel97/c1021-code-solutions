@@ -1,10 +1,16 @@
 /* exported getKeys */
-/* create a function give it that function a name and give it a peramter then inside the fucntion code block
-return the object keys property but without using object.keys and it should be returned as an array */
+/* we need to get the keys of an object an a form of an array
+step 1 create a function that holds an object as a parmater
+step 2 create a variable that holds an empty array
+step 3 create a for in loop that loops over the object
+step 4 push the object into the empty array
+step 5 return the empty array
+*/
 
 function getKeys(object) {
-  var objectHolder = []
-  for (var keys in object)
-  objectHolder.push(keys)
-  return objectHolder
+  const newArray = [];
+  for (const key in object) {
+    newArray.push(key);
+  }
+  return newArray;
 }
