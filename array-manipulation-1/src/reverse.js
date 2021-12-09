@@ -1,11 +1,20 @@
 /* exported reverse */
-/* create a function with a for loop that checks every word in an array and the length then reverse the order of the array
+/* we need to take an array and reverse it.
+step 1 create a function that takes an array
+step 2 create a new variable to store the new array in let newArray = [];
+step 3 create a for loop that loops over the length of the array backwrods.
+for (let i = array.length -1; i>=0;i--) {
+  step 4 we push the array at i into the newArray.
+  newArray.push(array[i]);
+}
+step 5 we return the newArray
+
 */
 
 function reverse(array) {
-  var arrayHolder = [];
-  for(var i = array.length -1 ; i >= 0; i--) {
-    arrayHolder.push(array[i]);
+  const newArray = [];
+  for (let i = array.length - 1; i >= 0; i--) {
+    newArray.push(array[i]);
   }
-  return arrayHolder;
+  return newArray;
 }
