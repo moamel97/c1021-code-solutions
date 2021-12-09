@@ -1,6 +1,10 @@
 /* exported setValue */
-/* create a function object that holds a key and a value then return the full object of the function including its values*/
+/* we need to add new property and a new value to the object
+step 1 create a function that holds and object , key and a value as a parameter
+step 2 return the object at key and assign it the value.
+*/
 
 function setValue(object, key, value) {
-  return object[key] = value
+  const valueOfObject = object[key] = value;
+  return valueOfObject;
 }

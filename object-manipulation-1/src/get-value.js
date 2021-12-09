@@ -1,6 +1,9 @@
 /* exported getValue */
-/* create a function that holds two parameters as its arguments then inside that function we need to retrive the value in object that is
-found at the key property*/
+/* first we need to fined the object then return the value of that object
+step 1 create a function that holds an object and a key
+step 2 return the key of the object
+*/
+
 function getValue(object, key) {
-  return object[key]
+  return object[key];
 }
