@@ -7,8 +7,5 @@ step 3 return the array at the first position.
 */
 
 function head(array) {
-  if (array === []) {
-    return undefined;
-  }
   return array[0];
 }

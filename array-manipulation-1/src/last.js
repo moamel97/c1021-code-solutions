@@ -7,8 +7,5 @@ step 3 return the array[array.length -1].
 */
 
 function last(array) {
-  if (array === []) {
-    return undefined;
-  }
   return array[array.length - 1];
 }
