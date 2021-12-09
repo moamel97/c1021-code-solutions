@@ -1,9 +1,9 @@
 /* exported isUpperCased */
-/* create a function that checks if all the letters are capitlized if they are then return true if they are not then return false */
+/* to check if the word is uppercased we first need to create a conditional that checks if the word is uppercased or not and if it is then return true if its not then return false.
+*/
 
 function isUpperCased(word) {
-  var upperCase = word.toUpperCase();
-  if (word === upperCase) {
+  if (word === word.toUpperCase()) {
     return true;
   } else {
     return false;

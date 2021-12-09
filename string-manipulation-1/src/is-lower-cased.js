@@ -1,10 +1,9 @@
 /* exported isLowerCased */
-/* create a function that checks if the first latter of the sentance is lower cased and if its then return true and if its not then return false*/
-
+/* we first need to create a funcition that has conditional that checks if the word that is passed through the parameter is lowercased or not and if it is then return a boolean;
+*/
 
 function isLowerCased(word) {
-  var lowerCase = word.toLowerCase();
-  if (word === lowerCase) {
+  if (word === word.toLowerCase()) {
     return true;
   } else {
     return false;
