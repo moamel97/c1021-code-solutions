@@ -1,20 +1,33 @@
 /* exported swapChars */
-/* step 1 create a function called swapChars
-step 2 give the function 3 parameters
-step 3 inside the function code block create a variable the holds the first letter of the string
-step 4 create a variable that holds the second letter of the string
-step 5 create a variable that adds the second letter and the first letter
-step 5 create a for loop that loops over the string length
-step 6 add the second letter to the first letter then add it to the string length
+/* we first need to grab the firstindex of the string and assign to a variable then we need to grab the second index of a string and then assign it to a variable
+after that we need to reassign the firstindex to the second index so that the letter at the first index is equal to the second and the second is equal to the first
+
+step 1 create a function that holds 3 parameters
+function swapChars (firstIndex, secondIndex, string) {
+  step 2 create a variable that splits the string into an array
+  step 3 create a variable that holds an empty string
+  step 4 we need to assign the firsIndex to a variable
+  let firstIndexChar = array[firstIndex];
+  step 5 we need to assign the secondIndex to a variable
+  let SecondIndexChar = array[secondIndex];
+  step 6 we need to re assign the array[firstindex] to the secondIndexChar
+  array[firstIndex] = secondIndexChar
+  step 7 we need to re assign the array at the second index to the firstIndexChar
+  array[secondIndex] = firstIndexChar
+  step 8 we then assign the array to the string and turn the array back to a string
+  newString = array.join('')
+  step 9 we return the newString
+  return newString;
+}
 */
 
 function swapChars(firstIndex, secondIndex, string) {
-  var array = string.split('');
-  var str = '';
-  var firstLetter = array[firstIndex];
-  var secondLetter = array[secondIndex];
-  array[firstIndex] = secondLetter;
-  array[secondIndex] = firstLetter;
-  str = array.join('');
-  return str;
+  const stringToArray = string.split('');
+  let newString = '';
+  const firstIndexChar = stringToArray[firstIndex];
+  const secondIndexChar = stringToArray[secondIndex];
+  stringToArray[firstIndex] = secondIndexChar;
+  stringToArray[secondIndex] = firstIndexChar;
+  newString = stringToArray.join('');
+  return newString;
 }

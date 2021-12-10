@@ -1,20 +1,24 @@
 /* exported ransomCase */
+/* we have a string with random letters uppercased or lowercased loop over the string and then uppercase every odd number
+after that we return the string
 
-/* step 1 create a function thats called ransomCase and give it one parameter (string)
-step 2 loop over each letter in the word
-step 3 inside the for loop code block use the method to lower case
-step 4 inside the for loop code use the math method to calculate odd numbers and capitalize every other number
-step 5 return string.
+step 1 create a function that holds a string as a parameter
+step 2 create a variable that holds an empty string
+step 3 create a for loop that loops over the string length
+step 4 create a conditional inside the for loop code block that checks for an even index in the string
+step 5 inside the if conditional lowerCase the even index of the string then add and assign it to the empty string
+step 6 else add and assign the string uppercased to the empty string
+step 7 return the new string
 */
 
 function ransomCase(string) {
-  var str = '';
-  for (var i = 0; i < string.length; i++) {
+  let newString = '';
+  for (let i = 0; i < string.length; i++) {
     if (i % 2 === 0) {
-      str += string[i].toLowerCase();
+      newString += string[i].toLowerCase();
     } else {
-      str += string[i].toUpperCase();
+      newString += string[i].toUpperCase();
     }
   }
-  return str;
+  return newString;
 }
