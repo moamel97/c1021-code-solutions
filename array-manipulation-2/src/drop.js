@@ -1,4 +1,5 @@
 /* exported drop */
+
 /* first we need to create a copy of the array so that we dont change the original array state then we need to create a shallow copy of array with the new values stored inside it
 
 step 1 create a function that holds an array and count as a parameter

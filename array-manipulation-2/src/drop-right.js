@@ -1,4 +1,5 @@
 /* exported dropRight */
+
 /* we need to drop the last few elements and then return the rest of the array without changing the original state of the array doing so we need to create a copy of the array
 so that we dont change the original array then store that copy in a variable then we need to splice the copied array from the negative position so we need to turn count into negative
 and when we give negative values to splice or slice they go backwords rather then forward after that we return the newArray

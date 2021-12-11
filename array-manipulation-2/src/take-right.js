@@ -1,4 +1,5 @@
 /* exported takeRight */
+
 /* we need to create a shallow array that containes the elements of the array backwords so if we input [1,2,3,4] and the count that is provided is 1
 then the new array should return 4 only
     --- first way of solving ---
