@@ -16,7 +16,7 @@
 
 .column-full {
   width: 100%;
-  margin-top: 2%;
+  margin-top: 2rem;
 }
 
 .nav-position {
@@ -48,7 +48,7 @@
 }
 
 .white-smoke-line {
-  border-bottom: #E7E9EC;
+  border-bottom: #e7e9ec;
   border-style: solid;
   border-width: 1px;
   border-top: 0;
@@ -66,7 +66,7 @@
 }
 
 img {
-  width: 149%;
+  width: 100%;
 }
 
 .hero-image-text-design {
@@ -83,21 +83,18 @@ button {
   padding: 3%;
   border: 0;
   width: 34%;
+  cursor: pointer;
 }
 
 .overlay {
-  background: linear-gradient(transparent, rgba(0,0,0,0.5));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
   position: absolute;
-  width: 60.2%;
-  height: 68.8%;
+  width: 100%;
+  height: 66.5vh;
 }
 
 .logo {
   margin-top: 3%;
-}
-
-h1 {
-  font-size: xxx-large;
 }
 
 .second-header {
@@ -137,10 +134,12 @@ h1 {
   padding-left: 10%;
 }
 
-h1 {
+h2 {
   font-family: 'Tiempos Headline', serif;
   color: white;
   font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 p {
@@ -149,16 +148,8 @@ p {
 }
 
 .color {
-  color: #6E6E6E;
-}
-
-h2 {
-  font-size: xx-large;
-  color: white;
-}
-
-.font-family {
-
+  color: #6e6e6e;
+  line-height: 2rem;
 }
 
 .background-color {
@@ -173,12 +164,11 @@ h2 {
 
 .line-height {
   line-height: 150%;
-
 }
 
 .canvas {
   font-weight: 500;
-  font-family:'Tiempos Headline', serif;
+  font-family: 'Tiempos Headline', serif;
 }
 
 h3 {
@@ -187,7 +177,7 @@ h3 {
 }
 
 .border-top {
-  border-top: #E7E9EC;
+  border-top: #e7e9ec;
   border-style: solid;
   border-width: 1px;
   border-left: 0;
@@ -222,4 +212,26 @@ h3 {
 
 .margin-left {
   margin-left: 4%;
+}
+
+.img-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.text-container {
+  position: absolute;
+  top: 3rem;
+  width: 45%;
+  margin-left: 3rem;
+  line-height: 1.5rem;
+}
+
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
 }
